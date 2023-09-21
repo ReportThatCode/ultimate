@@ -63,7 +63,7 @@ img {
 .sign-up {
     text-align: center;
     color: white;
-    background-color: rgb(36, 171, 216);
+    background-color: rgb(3, 68, 153);
     margin: 0;
     padding: 6px 20px;
     border-radius: 8px;
@@ -84,15 +84,21 @@ h1 {
 
 .second {
     height: 300px;
-    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .title-marcos {
+    padding: 20px;
+    font-size: 20px;
 
 }
 
-.divs {
+.conteiner {
     display: flex;
+    flex-direction: row;
+    gap: 25px;
 }
 
 .marcos {
@@ -102,19 +108,116 @@ border: solid blue;
 border-radius: 8px;
 }
 
-.div-text {
+.divtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.text-marco {
+    width: 100px;
+    text-align: center;
+    flex: 1;
+    margin-top: -10px;
+
+}
+
+.three {
+    height: 400px;
+    background-color: #e5e7eb;
+    display: flex;
+
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 200px;
+    justify-content: space-between;
+    margin: auto;
+}
+.font {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    font-family: light italic;
+}
+
+.center div .thor {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.last {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-last {
+    border-radius: 8px;
+    background-color: rgb(5, 148, 236);
+    padding: 20px 45px;
+    width: 60%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.right {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.boton {
+    color: white;
+    background-color: rgb(5, 148, 236);
+    padding: 3px 24px;
+    border-radius: 6px;
+    border: solid white 1px;
+    font-weight: 400;
+}
+button :hover {
+    background-color: rgb(15, 86, 145);
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
+}
+.left h4 {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.left p {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    color: white;
 }
 
 
-
-
-
-
-
-
-
-
+.footer {
+    height: 70px;
+    background-color: dimgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer h5 {
+    color: white;
+}
+    
 
 h3 {
     margin: 0;
